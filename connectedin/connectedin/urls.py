@@ -18,5 +18,6 @@ from django.urls import path, re_path ,include
 
 urlpatterns = [
     re_path(r'^', include('perfis.urls')),
+    re_path(r'^', include('usuarios.urls')),
     path('admin/', admin.site.urls)
 ]
